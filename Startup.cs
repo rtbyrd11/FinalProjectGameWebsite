@@ -27,11 +27,8 @@ namespace FinalProjectGameWebsite
         {
             services.AddRazorPages();
 
-            services.AddDbContext<GameDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("GameContext")));
-            
-            services.AddDbContext<CharacterDbContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("CharacterDbContext")));
+            services.AddDbContext<DbContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
