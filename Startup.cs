@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using FinalProjectGameWebsite.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProjectGameWebsite
 {
@@ -24,6 +26,12 @@ namespace FinalProjectGameWebsite
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<GameDbContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("GameContext")));
+            
+            services.AddDbContext<CharacterDbContext>(options =>
+                options.UseSqlite(Configuration.GetConnectionString("CharacterDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
