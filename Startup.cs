@@ -27,7 +27,7 @@ namespace FinalProjectGameWebsite
         {
             services.AddRazorPages();
 
-            services.AddDbContext<DbContext>(options =>
+            services.AddDbContext<Context>(options =>
                 options.UseSqlite(Configuration.GetConnectionString("Context")));
         }
 
