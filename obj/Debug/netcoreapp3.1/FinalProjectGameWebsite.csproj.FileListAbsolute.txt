@@ -78,3 +78,5 @@ C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\o
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\AddCharacter.cshtml.g.cs
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Create.cshtml.g.cs
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Index.cshtml.g.cs
+C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Details.cshtml.g.cs
+C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Edit.cshtml.g.cs

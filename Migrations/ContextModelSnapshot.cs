@@ -47,6 +47,7 @@ namespace FinalProjectGameWebsite.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
+                        .HasMaxLength(1000)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Rating")

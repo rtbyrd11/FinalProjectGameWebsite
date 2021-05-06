@@ -35,6 +35,8 @@ namespace FinalProjectGameWebsite.Pages.Games
             {
                 return NotFound();
             }
+
+            return Page();
         }
         public async Task<IActionResult> OnPostAsync()
         {
