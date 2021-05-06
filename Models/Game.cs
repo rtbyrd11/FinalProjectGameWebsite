@@ -13,14 +13,6 @@ namespace FinalProjectGameWebsite.Models
         public string Rating {get; set;}
         [Required]
         public string Description {get; set;}
-        public List<GameCharacter> GameCharacters {get; set;}
-    }
-
-    public class GameCharacter
-    {
-        public int GameId {get; set;}
-        public int CharacterId {get; set;}
-        public Game Game {get; set;}
-        public Character Character {get; set;}
+        public List<Character> Characters {get; set;}
     }
 }
