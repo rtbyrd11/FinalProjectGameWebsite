@@ -14402,6 +14402,11 @@
   "RootNamespace": "FinalProjectGameWebsite",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\Details.cshtml",
+      "TargetPath": "Pages\\Games\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\Index.cshtml",
       "TargetPath": "Pages\\Games\\Index.cshtml",
       "FileKind": "mvc"

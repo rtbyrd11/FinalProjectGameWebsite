@@ -1,0 +1,52 @@
+@page
+@model FinalProjectGameWebsite.Pages.Games.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4> Game </h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-4">
+            @Html.DisplayNameFor(model => model.Game.Title)
+        </dt>
+        <dd class="col-8">
+            @Html.DisplayFor(model => model.Game.Title)
+        </dd>
+        <dt class="col-4">
+            @Html.DisplayNameFor(model => model.Game.Rating)
+        </dt>
+        <dd class="col-8">
+            @Html.DisplayFor(model => model.Game.Rating)
+        </dd>
+        <dt class="col-4">
+            @Html.DisplayNameFor(model => model.Game.Description)
+        </dt>
+        <dd class="col-8">
+            @Html.DisplayFor(model => model.Game.Description)
+        </dd>
+        @foreach(var c in Model.Game.Characters)
+        {
+            <dt class="col-4">
+                @Html.DisplayNameFor(model => c.Name)
+            </dt>
+            <dd class="col-8">
+                @Html.DisplayFor(model => c.Name)
+            </dd>
+            <dt class="col-4">
+                @Html.DisplayNameFor(model => c.WeaponOfChoice)
+            </dt>
+            <dd class="col-8">
+                @Html.DisplayFor(model => c.WeaponOfChoice)
+            </dd>
+        }
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Game.GameId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
