@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\Edit.cshtml",
+      "TargetPath": "Pages\\Games\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
