@@ -75,3 +75,6 @@ C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\o
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\FinalProjectGameWebsite.dll
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\FinalProjectGameWebsite.pdb
 C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\FinalProjectGameWebsite.genruntimeconfig.cache
+C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\AddCharacter.cshtml.g.cs
+C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Create.cshtml.g.cs
+C:\Users\rtbyr\OneDrive\Desktop\CIDM3312\Final Project\FinalProjectGameWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Games\Index.cshtml.g.cs

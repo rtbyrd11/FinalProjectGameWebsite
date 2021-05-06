@@ -14402,6 +14402,11 @@
   "RootNamespace": "FinalProjectGameWebsite",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\Index.cshtml",
+      "TargetPath": "Pages\\Games\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14409,6 +14414,11 @@
     {
       "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\AddCharacter.cshtml",
+      "TargetPath": "Pages\\Games\\AddCharacter.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14424,6 +14434,11 @@
     {
       "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rtbyr\\OneDrive\\Desktop\\CIDM3312\\Final Project\\FinalProjectGameWebsite\\Pages\\Games\\Create.cshtml",
+      "TargetPath": "Pages\\Games\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

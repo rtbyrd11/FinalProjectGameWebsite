@@ -1,0 +1,47 @@
+@page
+@model FinalProjectGameWebsite.Pages.Games.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New Game</a><span> | </span>
+    <a asp-page="AddCharacter">Add Character</a>
+</p>
+<table class="table">
+    <thread>
+        <tr>
+            <th>
+                @Html.DisplayFor(model => model.Game[0].Title)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Game[0].Rating)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Game[0].Description)
+            </th>
+        </tr>
+    </thread>
+    <tbody>
+@foreach (var item in Model.Game) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.GameId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.GameId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.GameId">Delate</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -12,6 +12,7 @@ namespace FinalProjectGameWebsite.Models
         [Required]
         public string Rating {get; set;}
         [Required]
+        [StringLength(1000, MinimumLength = 3)]
         public string Description {get; set;}
         public List<Character> Characters {get; set;}
     }
