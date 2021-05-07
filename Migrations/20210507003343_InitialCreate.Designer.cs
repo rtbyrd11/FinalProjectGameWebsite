@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FinalProjectGameWebsite.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20210506213738_InitialCreate")]
+    [Migration("20210507003343_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

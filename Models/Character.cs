@@ -12,7 +12,6 @@ namespace FinalProjectGameWebsite.Models
         public string Name {get; set;}
         [Required]
         public string WeaponOfChoice {get; set;}
-        [Required]
         public Game Game {get; set;}
         public int GameId {get; set;}
     }
