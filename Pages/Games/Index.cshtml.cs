@@ -18,10 +18,14 @@ namespace FinalProjectGameWebsite.Pages.Games
             _context = context;
         }
 
+        [BindProperty(SupportsGet = true)]
+        public int PageNum {get; set;} = 1;
+        public int PageSize {get; set;} = 10;
         public IList<Game> Game {get; set;}
-        public async Task OnGetAsync()
+
+        public async Task OnGetAsync(string sortOrder, string searchString)
         {
-            Game = await _context.Games.ToListAsync();
+            Game = await _context.Games.Skip((PageNum-1)*PageSize).Take(PageSize).ToListAsync();
         }
 
     }

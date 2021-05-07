@@ -18,6 +18,10 @@ namespace FinalProjectGameWebsite.Pages.Games
         }
 
         public Game Game {get; set;}
+
+        [BindProperty(SupportsGet = true)]
+        public int PageNum {get; set;} = 1;
+        public int PageSize {get; set;} = 10;
         
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -35,7 +39,7 @@ namespace FinalProjectGameWebsite.Pages.Games
             return Page();
         }
 
-        public IActionResult OnPostDeleteReview(int? id)
+        public IActionResult OnPostAsync(int? id)
         {
             if (!ModelState.IsValid)
             {

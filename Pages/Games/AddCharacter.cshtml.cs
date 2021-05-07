@@ -40,7 +40,7 @@ namespace FinalProjectGameWebsite.Pages
             _context.Characters.Add(Character);
             _context.SaveChanges();
 
-            return RedirectToPage(".Index");
+            return RedirectToPage("./Index");
         }
     }
 }
